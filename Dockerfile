@@ -2,7 +2,7 @@ FROM centos:7
 MAINTAINER Skiychan <dev@skiy.net>
 
 ENV NGINX_VERSION 1.13.4
-ENV PHP_VERSION 7.1.0
+ENV PHP_VERSION 7.1.8
 
 RUN set -x && \
     yum install -y gcc \
